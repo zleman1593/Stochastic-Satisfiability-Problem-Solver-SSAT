@@ -322,13 +322,14 @@
                 [self.unassignedVariables addObject:[NSMutableString stringWithFormat:@"%i",(int)fabs(value)]];
                 break;}
         }
-        
-        if (i!=[self.unassignedVariables count]-1) {
+        //Modified by removing -1 Used to be if (i!=[self.unassignedVariables count]-1) {
+        if (i!=[self.unassignedVariables count]) {
             
             [self.unassignedVariables insertObject:[NSMutableString stringWithFormat:@"%i",(int)fabs(value)] atIndex:i];
         }
     } else{
         [self.unassignedVariables addObject:[NSMutableString stringWithFormat:@"%i",(int)fabs(value)]];
+        NSLog(@"made it here");
     }
 }
 

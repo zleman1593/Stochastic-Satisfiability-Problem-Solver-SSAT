@@ -188,6 +188,7 @@
         // Now restore the state after the probability of that brach has been determined
         [self restoreState:currentstate with:value];
         //Determine if an adjustment needs to be made
+        //For soem reason 3 is not being restored here
         if ([currentstate isChoiceVariable:fabs(value)]) {
             return probVSGN;
         } else{
@@ -231,7 +232,7 @@
     //False
     [currentstate assign:(nextLiteral*-1)];
     double probFalse=[self SOLVESSAT:currentstate];
-    [ self restoreState:currentstate with:nextLiteral];
+    [self restoreState:currentstate with:nextLiteral];
     [self.clauseState push:[currentstate prepRestoreClauses]];
     
 #ifdef LOGPROGRESS

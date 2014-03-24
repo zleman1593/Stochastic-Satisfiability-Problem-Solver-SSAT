@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2B0F00B618B2AACC0025F36B /* test.ssat in Resources */ = {isa = PBXBuildFile; fileRef = 2B0F00B518B2AACC0025F36B /* test.ssat */; };
-		2B0F00B818B4EAF50025F36B /* test6.ssat in Resources */ = {isa = PBXBuildFile; fileRef = 2B0F00B718B4EAF50025F36B /* test6.ssat */; };
-		2B0F00BA18B4EAFD0025F36B /* test5.ssat in Resources */ = {isa = PBXBuildFile; fileRef = 2B0F00B918B4EAFD0025F36B /* test5.ssat */; };
-		2B0FF9ED18B05E7A0025F36B /* problem4.ssat in Resources */ = {isa = PBXBuildFile; fileRef = 2B0FF9EC18B05E7A0025F36B /* problem4.ssat */; };
 		2B0FFA4E18B24EC60025F36B /* README in Resources */ = {isa = PBXBuildFile; fileRef = 2B0FFA4D18B24EC60025F36B /* README */; };
+		2B79763D18E0B3CB00EB4FAD /* test1.ssat in Resources */ = {isa = PBXBuildFile; fileRef = 2B79763718E0B3CB00EB4FAD /* test1.ssat */; };
+		2B79763E18E0B3CB00EB4FAD /* test2.ssat in Resources */ = {isa = PBXBuildFile; fileRef = 2B79763818E0B3CB00EB4FAD /* test2.ssat */; };
+		2B79763F18E0B3CB00EB4FAD /* test3.ssat in Resources */ = {isa = PBXBuildFile; fileRef = 2B79763918E0B3CB00EB4FAD /* test3.ssat */; };
+		2B79764018E0B3CB00EB4FAD /* test4.ssat in Resources */ = {isa = PBXBuildFile; fileRef = 2B79763A18E0B3CB00EB4FAD /* test4.ssat */; };
+		2B79764118E0B3CB00EB4FAD /* test5.ssat in Resources */ = {isa = PBXBuildFile; fileRef = 2B79763B18E0B3CB00EB4FAD /* test5.ssat */; };
+		2B79764218E0B3CB00EB4FAD /* test6.ssat in Resources */ = {isa = PBXBuildFile; fileRef = 2B79763C18E0B3CB00EB4FAD /* test6.ssat */; };
 		2BA32DAD18AD6C2700165F30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BA32DAC18AD6C2700165F30 /* Foundation.framework */; };
 		2BA32DAF18AD6C2700165F30 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BA32DAE18AD6C2700165F30 /* CoreGraphics.framework */; };
 		2BA32DB118AD6C2700165F30 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BA32DB018AD6C2700165F30 /* UIKit.framework */; };
@@ -31,7 +33,6 @@
 		2BA32DF118ADB4B700165F30 /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA32DEC18ADB4B600165F30 /* Stack.m */; };
 		2BA32DF218ADB4B700165F30 /* List.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA32DEE18ADB4B700165F30 /* List.m */; };
 		2BA32DF318ADB4B700165F30 /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA32DF018ADB4B700165F30 /* Node.m */; };
-		2BA35E6D18B5630800147AFC /* noteasy.ssat in Resources */ = {isa = PBXBuildFile; fileRef = 2BA35E6C18B5630800147AFC /* noteasy.ssat */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,11 +46,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2B0F00B518B2AACC0025F36B /* test.ssat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.ssat; sourceTree = "<group>"; };
-		2B0F00B718B4EAF50025F36B /* test6.ssat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test6.ssat; sourceTree = "<group>"; };
-		2B0F00B918B4EAFD0025F36B /* test5.ssat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test5.ssat; sourceTree = "<group>"; };
-		2B0FF9EC18B05E7A0025F36B /* problem4.ssat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = problem4.ssat; sourceTree = "<group>"; };
 		2B0FFA4D18B24EC60025F36B /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		2B79763718E0B3CB00EB4FAD /* test1.ssat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test1.ssat; sourceTree = "<group>"; };
+		2B79763818E0B3CB00EB4FAD /* test2.ssat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test2.ssat; sourceTree = "<group>"; };
+		2B79763918E0B3CB00EB4FAD /* test3.ssat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test3.ssat; sourceTree = "<group>"; };
+		2B79763A18E0B3CB00EB4FAD /* test4.ssat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test4.ssat; sourceTree = "<group>"; };
+		2B79763B18E0B3CB00EB4FAD /* test5.ssat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test5.ssat; sourceTree = "<group>"; };
+		2B79763C18E0B3CB00EB4FAD /* test6.ssat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test6.ssat; sourceTree = "<group>"; };
 		2BA32DA918AD6C2700165F30 /* SSAT Solver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SSAT Solver.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BA32DAC18AD6C2700165F30 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2BA32DAE18AD6C2700165F30 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -77,7 +80,6 @@
 		2BA32DEE18ADB4B700165F30 /* List.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = List.m; sourceTree = "<group>"; };
 		2BA32DEF18ADB4B700165F30 /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
 		2BA32DF018ADB4B700165F30 /* Node.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Node.m; sourceTree = "<group>"; };
-		2BA35E6C18B5630800147AFC /* noteasy.ssat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = noteasy.ssat; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,14 +181,15 @@
 		2BA32DE418AD6D4500165F30 /* Add SSAT problems here */ = {
 			isa = PBXGroup;
 			children = (
+				2B79763718E0B3CB00EB4FAD /* test1.ssat */,
+				2B79763818E0B3CB00EB4FAD /* test2.ssat */,
+				2B79763918E0B3CB00EB4FAD /* test3.ssat */,
+				2B79763A18E0B3CB00EB4FAD /* test4.ssat */,
+				2B79763B18E0B3CB00EB4FAD /* test5.ssat */,
+				2B79763C18E0B3CB00EB4FAD /* test6.ssat */,
 				2BA32DE518AD6D4500165F30 /* problem1.ssat */,
 				2BA32DE618AD6D4500165F30 /* problem2.ssat */,
 				2BA32DE718AD6D4500165F30 /* problem3.ssat */,
-				2B0F00B518B2AACC0025F36B /* test.ssat */,
-				2B0F00B918B4EAFD0025F36B /* test5.ssat */,
-				2B0F00B718B4EAF50025F36B /* test6.ssat */,
-				2B0FF9EC18B05E7A0025F36B /* problem4.ssat */,
-				2BA35E6C18B5630800147AFC /* noteasy.ssat */,
 			);
 			name = "Add SSAT problems here";
 			path = "3 ssat-problem";
@@ -269,17 +272,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B0FFA4E18B24EC60025F36B /* README in Resources */,
-				2B0FF9ED18B05E7A0025F36B /* problem4.ssat in Resources */,
+				2B79763E18E0B3CB00EB4FAD /* test2.ssat in Resources */,
+				2B79763F18E0B3CB00EB4FAD /* test3.ssat in Resources */,
 				2BA32DE818AD6D4500165F30 /* problem1.ssat in Resources */,
-				2B0F00B818B4EAF50025F36B /* test6.ssat in Resources */,
-				2BA35E6D18B5630800147AFC /* noteasy.ssat in Resources */,
 				2BA32DE918AD6D4500165F30 /* problem2.ssat in Resources */,
-				2B0F00BA18B4EAFD0025F36B /* test5.ssat in Resources */,
 				2BA32DEA18AD6D4500165F30 /* problem3.ssat in Resources */,
 				2BA32DC518AD6C2700165F30 /* Images.xcassets in Resources */,
+				2B79764218E0B3CB00EB4FAD /* test6.ssat in Resources */,
 				2BA32DB718AD6C2700165F30 /* InfoPlist.strings in Resources */,
+				2B79763D18E0B3CB00EB4FAD /* test1.ssat in Resources */,
+				2B79764018E0B3CB00EB4FAD /* test4.ssat in Resources */,
 				2BA32DC018AD6C2700165F30 /* Main.storyboard in Resources */,
-				2B0F00B618B2AACC0025F36B /* test.ssat in Resources */,
+				2B79764118E0B3CB00EB4FAD /* test5.ssat in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

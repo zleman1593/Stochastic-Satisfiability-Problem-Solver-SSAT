@@ -1,0 +1,73 @@
+c Problem 1
+p cnf 4 6
+
+
+1    3    2    0
+4    3    0
+2    4   -1    0
+-4   -3    0
+-4    3   -1    0
+2    3    0
+
+
+1   -1
+2   0.3
+3   -1
+4   0.6
+
+
+
+Success Probability:  0.46
+
+
+
+4    3    0
+-4       0
+
+
+
+[1112:ssat_makesolve]=> ./ssat_makesolve 4 6 3 ERER 0.3 0.6 34   
+
+Command               = ./ssat_makesolve 4 6 3 ERER 0.3 0.6 34 
+Number of variables   = 4
+Number of clauses     = 6
+Maximum clause length = 3
+Average clause length = 2.5
+Seed                  = 34
+
+Variables
+---------
+   x1   CHOICE
+   y1   0.3
+   x2   CHOICE
+   y2   0.6
+
+Clauses
+-------
+    1 (   x1   x2   y1  )
+    2 (   y2   x2  )
+    3 (   y1   y2  -x1  )
+    4 (  -y2  -x2  )
+    5 (  -y2   x2  -x1  )
+    6 (   y1   x2  )
+
+
+Solution
+--------
+       -x1  -y1   x2  -y2        0.28
+                       y2           0
+             y1  -x2  -y2           0
+                       y2        0.18
+                       
+                       
+                       Solution
+--------
+       -1  -2   3  -4        0.28
+                    4           0
+             2  -3  -4           0
+                    4        0.18
+
+Success Probability:  0.46
+Solution Time (CPU secs):  0
+
+[1113:ssat_makesolve]=> 
