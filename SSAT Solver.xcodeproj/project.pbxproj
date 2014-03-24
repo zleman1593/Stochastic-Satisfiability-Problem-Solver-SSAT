@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B0F00B618B2AACC0025F36B /* test.ssat in Resources */ = {isa = PBXBuildFile; fileRef = 2B0F00B518B2AACC0025F36B /* test.ssat */; };
+		2B0F00B818B4EAF50025F36B /* test6.ssat in Resources */ = {isa = PBXBuildFile; fileRef = 2B0F00B718B4EAF50025F36B /* test6.ssat */; };
+		2B0F00BA18B4EAFD0025F36B /* test5.ssat in Resources */ = {isa = PBXBuildFile; fileRef = 2B0F00B918B4EAFD0025F36B /* test5.ssat */; };
+		2B0FF9ED18B05E7A0025F36B /* problem4.ssat in Resources */ = {isa = PBXBuildFile; fileRef = 2B0FF9EC18B05E7A0025F36B /* problem4.ssat */; };
+		2B0FFA4E18B24EC60025F36B /* README in Resources */ = {isa = PBXBuildFile; fileRef = 2B0FFA4D18B24EC60025F36B /* README */; };
+		2BA32DAD18AD6C2700165F30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BA32DAC18AD6C2700165F30 /* Foundation.framework */; };
+		2BA32DAF18AD6C2700165F30 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BA32DAE18AD6C2700165F30 /* CoreGraphics.framework */; };
+		2BA32DB118AD6C2700165F30 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BA32DB018AD6C2700165F30 /* UIKit.framework */; };
+		2BA32DB718AD6C2700165F30 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2BA32DB518AD6C2700165F30 /* InfoPlist.strings */; };
+		2BA32DB918AD6C2700165F30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA32DB818AD6C2700165F30 /* main.m */; };
+		2BA32DBD18AD6C2700165F30 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA32DBC18AD6C2700165F30 /* AppDelegate.m */; };
+		2BA32DC018AD6C2700165F30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BA32DBE18AD6C2700165F30 /* Main.storyboard */; };
+		2BA32DC318AD6C2700165F30 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA32DC218AD6C2700165F30 /* ViewController.m */; };
+		2BA32DC518AD6C2700165F30 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BA32DC418AD6C2700165F30 /* Images.xcassets */; };
+		2BA32DCC18AD6C2700165F30 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BA32DCB18AD6C2700165F30 /* XCTest.framework */; };
+		2BA32DCD18AD6C2700165F30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BA32DAC18AD6C2700165F30 /* Foundation.framework */; };
+		2BA32DCE18AD6C2700165F30 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BA32DB018AD6C2700165F30 /* UIKit.framework */; };
+		2BA32DE318AD6C5200165F30 /* Solvers.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA32DE218AD6C5200165F30 /* Solvers.m */; };
+		2BA32DE818AD6D4500165F30 /* problem1.ssat in Resources */ = {isa = PBXBuildFile; fileRef = 2BA32DE518AD6D4500165F30 /* problem1.ssat */; };
+		2BA32DE918AD6D4500165F30 /* problem2.ssat in Resources */ = {isa = PBXBuildFile; fileRef = 2BA32DE618AD6D4500165F30 /* problem2.ssat */; };
+		2BA32DEA18AD6D4500165F30 /* problem3.ssat in Resources */ = {isa = PBXBuildFile; fileRef = 2BA32DE718AD6D4500165F30 /* problem3.ssat */; };
+		2BA32DF118ADB4B700165F30 /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA32DEC18ADB4B600165F30 /* Stack.m */; };
+		2BA32DF218ADB4B700165F30 /* List.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA32DEE18ADB4B700165F30 /* List.m */; };
+		2BA32DF318ADB4B700165F30 /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA32DF018ADB4B700165F30 /* Node.m */; };
+		2BA35E6D18B5630800147AFC /* noteasy.ssat in Resources */ = {isa = PBXBuildFile; fileRef = 2BA35E6C18B5630800147AFC /* noteasy.ssat */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2BA32DCF18AD6C2700165F30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BA32DA118AD6C2700165F30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BA32DA818AD6C2700165F30;
+			remoteInfo = "SSAT Solver";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B0F00B518B2AACC0025F36B /* test.ssat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.ssat; sourceTree = "<group>"; };
+		2B0F00B718B4EAF50025F36B /* test6.ssat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test6.ssat; sourceTree = "<group>"; };
+		2B0F00B918B4EAFD0025F36B /* test5.ssat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test5.ssat; sourceTree = "<group>"; };
+		2B0FF9EC18B05E7A0025F36B /* problem4.ssat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = problem4.ssat; sourceTree = "<group>"; };
+		2B0FFA4D18B24EC60025F36B /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		2BA32DA918AD6C2700165F30 /* SSAT Solver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SSAT Solver.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BA32DAC18AD6C2700165F30 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2BA32DAE18AD6C2700165F30 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2BA32DB018AD6C2700165F30 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2BA32DB418AD6C2700165F30 /* SSAT Solver-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SSAT Solver-Info.plist"; sourceTree = "<group>"; };
+		2BA32DB618AD6C2700165F30 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2BA32DB818AD6C2700165F30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2BA32DBA18AD6C2700165F30 /* SSAT Solver-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SSAT Solver-Prefix.pch"; sourceTree = "<group>"; };
+		2BA32DBB18AD6C2700165F30 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2BA32DBC18AD6C2700165F30 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2BA32DBF18AD6C2700165F30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2BA32DC118AD6C2700165F30 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2BA32DC218AD6C2700165F30 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2BA32DC418AD6C2700165F30 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2BA32DCA18AD6C2700165F30 /* SSAT SolverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SSAT SolverTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BA32DCB18AD6C2700165F30 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2BA32DE118AD6C5200165F30 /* Solvers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Solvers.h; path = ../Solvers.h; sourceTree = "<group>"; };
+		2BA32DE218AD6C5200165F30 /* Solvers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Solvers.m; path = ../Solvers.m; sourceTree = "<group>"; };
+		2BA32DE518AD6D4500165F30 /* problem1.ssat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = problem1.ssat; sourceTree = "<group>"; };
+		2BA32DE618AD6D4500165F30 /* problem2.ssat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = problem2.ssat; sourceTree = "<group>"; };
+		2BA32DE718AD6D4500165F30 /* problem3.ssat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = problem3.ssat; sourceTree = "<group>"; };
+		2BA32DEB18ADB4B600165F30 /* Stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
+		2BA32DEC18ADB4B600165F30 /* Stack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stack.m; sourceTree = "<group>"; };
+		2BA32DED18ADB4B600165F30 /* List.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = List.h; sourceTree = "<group>"; };
+		2BA32DEE18ADB4B700165F30 /* List.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = List.m; sourceTree = "<group>"; };
+		2BA32DEF18ADB4B700165F30 /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		2BA32DF018ADB4B700165F30 /* Node.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Node.m; sourceTree = "<group>"; };
+		2BA35E6C18B5630800147AFC /* noteasy.ssat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = noteasy.ssat; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BA32DA618AD6C2700165F30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BA32DAF18AD6C2700165F30 /* CoreGraphics.framework in Frameworks */,
+				2BA32DB118AD6C2700165F30 /* UIKit.framework in Frameworks */,
+				2BA32DAD18AD6C2700165F30 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BA32DC718AD6C2700165F30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BA32DCC18AD6C2700165F30 /* XCTest.framework in Frameworks */,
+				2BA32DCE18AD6C2700165F30 /* UIKit.framework in Frameworks */,
+				2BA32DCD18AD6C2700165F30 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B0FFA4918B240C50025F36B /* Generic Stack Code */ = {
+			isa = PBXGroup;
+			children = (
+				2BA32DEB18ADB4B600165F30 /* Stack.h */,
+				2BA32DEC18ADB4B600165F30 /* Stack.m */,
+				2BA32DED18ADB4B600165F30 /* List.h */,
+				2BA32DEE18ADB4B700165F30 /* List.m */,
+				2BA32DEF18ADB4B700165F30 /* Node.h */,
+				2BA32DF018ADB4B700165F30 /* Node.m */,
+			);
+			name = "Generic Stack Code";
+			sourceTree = "<group>";
+		};
+		2BA32DA018AD6C2700165F30 = {
+			isa = PBXGroup;
+			children = (
+				2B0FFA4D18B24EC60025F36B /* README */,
+				2B0FFA4918B240C50025F36B /* Generic Stack Code */,
+				2BA32DE418AD6D4500165F30 /* Add SSAT problems here */,
+				2BA32DB218AD6C2700165F30 /* SSAT Solver */,
+				2BA32DAB18AD6C2700165F30 /* Frameworks */,
+				2BA32DAA18AD6C2700165F30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2BA32DAA18AD6C2700165F30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BA32DA918AD6C2700165F30 /* SSAT Solver.app */,
+				2BA32DCA18AD6C2700165F30 /* SSAT SolverTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BA32DAB18AD6C2700165F30 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BA32DAC18AD6C2700165F30 /* Foundation.framework */,
+				2BA32DAE18AD6C2700165F30 /* CoreGraphics.framework */,
+				2BA32DB018AD6C2700165F30 /* UIKit.framework */,
+				2BA32DCB18AD6C2700165F30 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2BA32DB218AD6C2700165F30 /* SSAT Solver */ = {
+			isa = PBXGroup;
+			children = (
+				2BA32DC118AD6C2700165F30 /* ViewController.h */,
+				2BA32DC218AD6C2700165F30 /* ViewController.m */,
+				2BA32DE118AD6C5200165F30 /* Solvers.h */,
+				2BA32DE218AD6C5200165F30 /* Solvers.m */,
+				2BA32DBB18AD6C2700165F30 /* AppDelegate.h */,
+				2BA32DBC18AD6C2700165F30 /* AppDelegate.m */,
+				2BA32DBE18AD6C2700165F30 /* Main.storyboard */,
+				2BA32DC418AD6C2700165F30 /* Images.xcassets */,
+				2BA32DB318AD6C2700165F30 /* Supporting Files */,
+			);
+			path = "SSAT Solver";
+			sourceTree = "<group>";
+		};
+		2BA32DB318AD6C2700165F30 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2BA32DB418AD6C2700165F30 /* SSAT Solver-Info.plist */,
+				2BA32DB518AD6C2700165F30 /* InfoPlist.strings */,
+				2BA32DB818AD6C2700165F30 /* main.m */,
+				2BA32DBA18AD6C2700165F30 /* SSAT Solver-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2BA32DE418AD6D4500165F30 /* Add SSAT problems here */ = {
+			isa = PBXGroup;
+			children = (
+				2BA32DE518AD6D4500165F30 /* problem1.ssat */,
+				2BA32DE618AD6D4500165F30 /* problem2.ssat */,
+				2BA32DE718AD6D4500165F30 /* problem3.ssat */,
+				2B0F00B518B2AACC0025F36B /* test.ssat */,
+				2B0F00B918B4EAFD0025F36B /* test5.ssat */,
+				2B0F00B718B4EAF50025F36B /* test6.ssat */,
+				2B0FF9EC18B05E7A0025F36B /* problem4.ssat */,
+				2BA35E6C18B5630800147AFC /* noteasy.ssat */,
+			);
+			name = "Add SSAT problems here";
+			path = "3 ssat-problem";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BA32DA818AD6C2700165F30 /* SSAT Solver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BA32DDB18AD6C2700165F30 /* Build configuration list for PBXNativeTarget "SSAT Solver" */;
+			buildPhases = (
+				2BA32DA518AD6C2700165F30 /* Sources */,
+				2BA32DA618AD6C2700165F30 /* Frameworks */,
+				2BA32DA718AD6C2700165F30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SSAT Solver";
+			productName = "SSAT Solver";
+			productReference = 2BA32DA918AD6C2700165F30 /* SSAT Solver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2BA32DC918AD6C2700165F30 /* SSAT SolverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BA32DDE18AD6C2700165F30 /* Build configuration list for PBXNativeTarget "SSAT SolverTests" */;
+			buildPhases = (
+				2BA32DC618AD6C2700165F30 /* Sources */,
+				2BA32DC718AD6C2700165F30 /* Frameworks */,
+				2BA32DC818AD6C2700165F30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BA32DD018AD6C2700165F30 /* PBXTargetDependency */,
+			);
+			name = "SSAT SolverTests";
+			productName = "SSAT SolverTests";
+			productReference = 2BA32DCA18AD6C2700165F30 /* SSAT SolverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BA32DA118AD6C2700165F30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Zackery Leman";
+				TargetAttributes = {
+					2BA32DC918AD6C2700165F30 = {
+						TestTargetID = 2BA32DA818AD6C2700165F30;
+					};
+				};
+			};
+			buildConfigurationList = 2BA32DA418AD6C2700165F30 /* Build configuration list for PBXProject "SSAT Solver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2BA32DA018AD6C2700165F30;
+			productRefGroup = 2BA32DAA18AD6C2700165F30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BA32DA818AD6C2700165F30 /* SSAT Solver */,
+				2BA32DC918AD6C2700165F30 /* SSAT SolverTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BA32DA718AD6C2700165F30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B0FFA4E18B24EC60025F36B /* README in Resources */,
+				2B0FF9ED18B05E7A0025F36B /* problem4.ssat in Resources */,
+				2BA32DE818AD6D4500165F30 /* problem1.ssat in Resources */,
+				2B0F00B818B4EAF50025F36B /* test6.ssat in Resources */,
+				2BA35E6D18B5630800147AFC /* noteasy.ssat in Resources */,
+				2BA32DE918AD6D4500165F30 /* problem2.ssat in Resources */,
+				2B0F00BA18B4EAFD0025F36B /* test5.ssat in Resources */,
+				2BA32DEA18AD6D4500165F30 /* problem3.ssat in Resources */,
+				2BA32DC518AD6C2700165F30 /* Images.xcassets in Resources */,
+				2BA32DB718AD6C2700165F30 /* InfoPlist.strings in Resources */,
+				2BA32DC018AD6C2700165F30 /* Main.storyboard in Resources */,
+				2B0F00B618B2AACC0025F36B /* test.ssat in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BA32DC818AD6C2700165F30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BA32DA518AD6C2700165F30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BA32DC318AD6C2700165F30 /* ViewController.m in Sources */,
+				2BA32DBD18AD6C2700165F30 /* AppDelegate.m in Sources */,
+				2BA32DF318ADB4B700165F30 /* Node.m in Sources */,
+				2BA32DE318AD6C5200165F30 /* Solvers.m in Sources */,
+				2BA32DF218ADB4B700165F30 /* List.m in Sources */,
+				2BA32DF118ADB4B700165F30 /* Stack.m in Sources */,
+				2BA32DB918AD6C2700165F30 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BA32DC618AD6C2700165F30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BA32DD018AD6C2700165F30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BA32DA818AD6C2700165F30 /* SSAT Solver */;
+			targetProxy = 2BA32DCF18AD6C2700165F30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2BA32DB518AD6C2700165F30 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BA32DB618AD6C2700165F30 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2BA32DBE18AD6C2700165F30 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BA32DBF18AD6C2700165F30 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BA32DD918AD6C2700165F30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		2BA32DDA18AD6C2700165F30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BA32DDC18AD6C2700165F30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSAT Solver/SSAT Solver-Prefix.pch";
+				INFOPLIST_FILE = "SSAT Solver/SSAT Solver-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2BA32DDD18AD6C2700165F30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSAT Solver/SSAT Solver-Prefix.pch";
+				INFOPLIST_FILE = "SSAT Solver/SSAT Solver-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2BA32DDF18AD6C2700165F30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SSAT Solver.app/SSAT Solver";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSAT Solver/SSAT Solver-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SSAT SolverTests/SSAT SolverTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2BA32DE018AD6C2700165F30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SSAT Solver.app/SSAT Solver";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSAT Solver/SSAT Solver-Prefix.pch";
+				INFOPLIST_FILE = "SSAT SolverTests/SSAT SolverTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BA32DA418AD6C2700165F30 /* Build configuration list for PBXProject "SSAT Solver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BA32DD918AD6C2700165F30 /* Debug */,
+				2BA32DDA18AD6C2700165F30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BA32DDB18AD6C2700165F30 /* Build configuration list for PBXNativeTarget "SSAT Solver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BA32DDC18AD6C2700165F30 /* Debug */,
+				2BA32DDD18AD6C2700165F30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BA32DDE18AD6C2700165F30 /* Build configuration list for PBXNativeTarget "SSAT SolverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BA32DDF18AD6C2700165F30 /* Debug */,
+				2BA32DE018AD6C2700165F30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BA32DA118AD6C2700165F30 /* Project object */;
+}

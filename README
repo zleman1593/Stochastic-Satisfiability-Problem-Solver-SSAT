@@ -1,0 +1,18 @@
+1. Make sure you add the SSAT files to the folder: "Add SSAT problems here"
+2. Click Run.
+3. Then enter the file name in the space provided and click start.
+4. To run another, simply change the file name and click start.
+
+Included problems: "problem1" "problem2"  "problem3" "test6"
+
+Notes:
+The files should be in .cnf format with a list of numbers with their probabilities (or -1 for choice variable) next to them, as seen below.
+This algorithm requires that three or four spaces exist between literals in a clause. 4 spaces between the last literal of a cluase and the trailing zero is also required.
+
+ 1   -1
+ 2   -1
+ 3   0.1
+ 4   0.7
+ 5   -1
+ 6   -1
+ 7   0.8
