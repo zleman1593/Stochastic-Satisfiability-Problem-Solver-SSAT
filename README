@@ -7,7 +7,7 @@ Included problems: "problem1" "problem2"  "problem3" "test6"
 
 Notes:
 The files should be in .cnf format with a list of numbers with their probabilities (or -1 for choice variable) next to them, as seen below.
-This algorithm requires that three or four spaces exist between literals in a clause. 4 spaces between the last literal of a cluase and the trailing zero is also required.
+This algorithm requires that four spaces exist before nonnegated literals and three spaces exist before negated literals in a clause. 4 spaces between the last literal of a clause and the trailing zero is also required. No additional  formatting dependencies exist. This also makes it more human readable.
 
  1   -1
  2   -1
