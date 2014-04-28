@@ -8,7 +8,7 @@ Included problems: "problem1" "problem2"  "problem3" "test6"
 Notes:
 The files should be in .cnf format with a list of numbers with their probabilities (or -1 for choice variable) next to them, as seen below.
 <<<<<<< HEAD
-This algorithm requires that four spaces exist before nonnegated literals and three spaces exist before negated literals in a clause. 4 spaces between the last literal of a clause and the trailing zero is also required. No additional  formatting dependencies exist. This also makes it more human readable.
+
 =======
 
 >>>>>>> FETCH_HEAD
@@ -22,6 +22,8 @@ This algorithm requires that four spaces exist before nonnegated literals and th
  7   0.8
 
 This algorithm requires the .cnf files to have:
-A: Three or four spaces exist between literals in a clause.
+A: Four spaces exist before nonnegated literals and three spaces exist before negated literals in a clause.
 B: Four spaces between the last literal of a clause.
 C: A trailing zero is also required. (see example .cnf files)
+
+No additional formatting dependencies exist. This also makes it more human readable.
